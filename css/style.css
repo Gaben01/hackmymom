@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .main{
+      margin: 0;
+      width: 100%;
+    }
+}
