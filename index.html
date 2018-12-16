@@ -1,18 +1,87 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>Boiler PLate Gab</title>
+    <title>Gestione Noleggio</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/main_button_style.css">
+    <link rel="stylesheet" type="text/css" href="./css/main_checkbox_style.css">
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
-    <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="print.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-<body>
-    <div class = "main">
 
+<body>
+    <div class="header">
+        <img src="assets/Noleggio-Elettrico-logo-fondo-bianco copia1.png">
+    </div>
+    <div class="main">
+        <div class="boxes">
+            <div id="ritiro" class="boxes__box">
+                <h1>IN LISTA PER RITIRO</h1>
+                <div class="boxes__box__info">
+                    <div class="__info__container">
+                        <div class="__info__container__preview">
+                            <p>Nicola</p>
+                            <i class="fas fa-arrow-circle-up"></i>
+                        </div>
+                        <div class="__info__container__form">
+                            <div class="__info__container__form__section">
+                                <h2>Dati utente</h2>
+                                <img src="assets/Unknown.jpeg">
+                            </div>
+                            <div class="__info__container__form__section">
+                                <h3>Durata Noleggio</h3>
+                                <p>2 giorni</p>
+                            </div>
+                            <div class="__info__container__form__section">
+                            <h2>Dati vettura</h2>
+                            <h3>Batteria</h3>
+                                <label class="container">
+                                    <input type="radio" checked="checked" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="__info__container__form__section">
+                                <h3>Chilometraggio</h3>
+                                <p>3000km</p>
+                            </div>
+                            <button>CONFERMA</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="deposito" class="boxes__box">
+                <h1>IN LISTA PER DEPOSITO</h1>
+                <div class="boxes__box__info">
+                    <span>
+                        <p>Gabriele</p>
+                        <i class="far fa-arrow-circle-down"></i>
+                        <div>
+
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="js/models/model_config_request.js"></script>
     <script src="js/controllers/requests.js"></script>

@@ -1,3 +1,5 @@
 loginController = {
-
+    setUpLogin: function(){
+        
+    }
 }
