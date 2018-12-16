@@ -1,50 +1,62 @@
-.boxes{
-    height: 80%;
+.boxes button{
+    float: right;
 }
 .boxes__box{
-    float: left;
-    width: 49%;
-    height: 100%;
+    width: 100%;
     border-radius: 6px;
+    margin: 0 0 50px 0;
 }
 .boxes__box h1{
     background-color: #f9e374;
     text-align: center;
     font-size: 30px;
+    margin: 1px;
     padding: 10px;
 }
 .boxes__box__info{
-    width: 90%;
+    display: flex;
+    width: 100%;
     background-color: white;
     border-radius: 6px;
+    margin-top: 10px;
 }
-
 .__info__container{
-    display: block;
     width: 100%;
-    margin: 20px 0;
-    height: 10%;
-    border-radius: 6px;
+    padding: 10px;
 }
 .__info__container__preview{
-    padding: 10px;
     display: flex;
+    padding: 20px;
 }
 .__info__container__preview p{
-    width: 80%;
-    margin: auto 0;
-    font-size: 25px;
-    color: rgb(0, 0, 0);
+    width: 99%;
 }
-.__info__container__preview i{
-    margin: auto;
+.__info__container__section{
+    display: flex;
+    padding: 20px;
 }
-.__info__container__form {
-    padding: 10px; 
-}
-.__info__container__form__section{
-    margin: 40px 0 0 0;
-}
-.__info__container__form__section img{
+.__info__container__section img{
     width: 100%;
+}
+.__info__container__section h2{
+    width: 50%;
+    text-align: left;
+}
+.__info__container__section p{
+    width: 50%;
+    text-align: right;
+}
+.__info__container__section button{
+    width: 100%;
+    padding: 5px;
+}
+
+@media screen and (min-width: 800px) {
+    .boxes__box{
+        float: left;
+        width: 50%;
+    }
+    .boxes__box__info{
+        width: 90%
+    }
 }

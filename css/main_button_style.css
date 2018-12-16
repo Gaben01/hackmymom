@@ -1,4 +1,4 @@
-button {
+.main_button {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9e374), color-stop(1, #dbba43));
 	background:-moz-linear-gradient(top, #f9e374 5%, #dbba43 100%);
 	background:-webkit-linear-gradient(top, #f9e374 5%, #dbba43 100%);
@@ -19,7 +19,7 @@ button {
 	text-decoration:none;
 	border-color: transparent;
 }
-button:hover {
+.main_button:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dbba43), color-stop(1, #f9e374));
 	background:-moz-linear-gradient(top, #dbba43 5%, #f9e374 100%);
 	background:-webkit-linear-gradient(top, #dbba43 5%, #f9e374 100%);
@@ -29,7 +29,7 @@ button:hover {
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dbba43', endColorstr='#f9e374',GradientType=0);
 	background-color:#dbba43;
 }
-button:active {
+.main_button:active {
 	position:relative;
 	top:1px;
 }
