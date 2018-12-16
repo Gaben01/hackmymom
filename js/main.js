@@ -7,6 +7,6 @@
 
 (function () {
     $(document).ready(function () {
-        $(".login__container__form").on("submit",loginView.sendLoginInfo);
+        $(".login__container__form").on("submit",loginController.setUpLogin);
     });
 })();

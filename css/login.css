@@ -35,3 +35,7 @@
     margin: 40px auto;
     display: block;
 }
+.error{
+    width: 100%;
+    text-align: center;
+}
